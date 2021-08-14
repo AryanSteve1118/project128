@@ -14,7 +14,7 @@ soup = BeautifulSoup(r.text,'html.parser')
 table = soup.find_all('table')
 print(len(table))
 temp = []
-rows = table[4].find_all('tr')
+rows = table[3].find_all('tr')
 for tr in rows:
     td = tr.find_all('td')
     row = [i.text.rstrip() for i in td]
