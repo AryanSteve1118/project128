@@ -30,5 +30,3 @@ for i in range(1,len(temp)):
     r.append(temp[i][8])     
 df = pd.DataFrame(list(zip(n,d,m,r)),columns = ['name','distance','mass','radius'])    
 df.to_csv('final.csv')
-#  only four hours of submitting remains
-# ok. submit now.. i will check let u know why we r not getting ouput.
